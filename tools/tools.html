@@ -1,0 +1,125 @@
+<!-- 
+
+╭━━━╮╱╱╱╱╱╱╱╭┳╮╱╱╱╱╱╱╱╱╱╱╭━━━╮╱╱╭━━━╮╱╱╱╱╱╱╱╱╱╭╮╱╱╱╱╱╱╭╮
+┃╭━╮┃╱╱╱╱╱╱╱┃┃┃╱╱╱╱╱╱╱╱╱╱┃╭━╮┃╱╱┃╭━╮┃╱╱╱╱╱╱╱╱╱┃┃╱╱╱╱╱╱┃┃
+┃┃╱╰╋━━┳━━┳━╯┃╰━┳╮╱╭┳━━╮╱┃┃╱╰╋━━┫┃╱╰╋╮╭┳━━┳━┳━╯┣┳━━┳━╮┃┃
+┃┃╭━┫╭╮┃╭╮┃╭╮┃╭╮┃┃╱┃┃┃━┫╱┃┃╭━┫╭╮┃┃╭━┫┃┃┃╭╮┃╭┫╭╮┣┫╭╮┃╭╮╋╯
+┃╰┻━┃╰╯┃╰╯┃╰╯┃╰╯┃╰━╯┃┃━╋╮┃╰┻━┃╰╯┃╰┻━┃╰╯┃╭╮┃┃┃╰╯┃┃╭╮┃┃┃┣╮
+╰━━━┻━━┻━━┻━━┻━━┻━╮╭┻━━┻┫╰━━━┻━━┻━━━┻━━┻╯╰┻╯╰━━┻┻╯╰┻╯╰┻╯
+╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╭━╯┃╱╱╱╱╯
+╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╰━━╯
+
+Made by @HENRYMARTIN4, @mrgellohorse and @elipie
+
+WARNING: This is a DEV build. This file should NEVER be hosted in a production deployment.
+
+ -->
+
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Goodbye, GoGuardian!</title>
+	<!-- Font Awesome -->
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
+	<!-- Google Fonts -->
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap">
+	<!-- Bootstrap core CSS -->
+	<link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap.min.css" rel="stylesheet">
+	<!-- Material Design Bootstrap -->
+	<link href="https://GoodbyeGoGuardianNotAnymore.n3rdl0rd.repl.co/css/mdb.dark.min.css" rel="stylesheet">
+
+	<!-- JQuery -->
+	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js">
+
+	</script>
+	<!-- Bootstrap tooltips -->
+	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.4/umd/popper.min.js">
+
+	</script>
+	<!-- Bootstrap core JavaScript -->
+	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/js/bootstrap.min.js">
+
+	</script>
+	<!-- MDB core JavaScript -->
+	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.19.1/js/mdb.min.js">
+
+	</script>
+	<link href="https://gitcdn.github.io/bootstrap-toggle/2.2.2/css/bootstrap-toggle.min.css" rel="stylesheet">
+	<script src="https://gitcdn.github.io/bootstrap-toggle/2.2.2/js/bootstrap-toggle.min.js">
+
+	</script>
+	<script src="https://code.jquery.com/jquery-3.6.0.slim.min.js" integrity="sha256-u7e5khyithlIdTpu22PHhENmPcRdFiHRjhAuHcs05RI="
+	 crossorigin="anonymous">
+
+	</script>
+
+	<script>
+		function openlink(link){
+            var xmlhttp;
+            if (window.XMLHttpRequest) {
+                xmlhttp = new XMLHttpRequest();
+            } else {
+                // code for older browsers
+                xmlhttp = new ActiveXObject("Microsoft.XMLHTTP");
+            }
+            xmlhttp.onreadystatechange = function() {
+                if (this.readyState == 4 && this.status == 200) {
+                    var newHTML = document.open("text/html", "replace");
+                    newHTML.write(this.responseText);
+                    newHTML.close();
+                }
+            };
+            xmlhttp.open("GET", link, true);
+            xmlhttp.send();
+        }
+	</script>
+
+
+</head>
+
+<body>
+	<script>
+		window.onbeforeunload=function() {return false;}
+	</script>
+
+	<div class="container my-4">
+
+		<h1 class="font-weight-bold">Goodbye, GoGuardian!</h1>
+
+		<p><strong>Say goodbye to the most annoying privacy destroyer on the internet!</strong></p>
+
+        <hr class="mt-5">
+
+        <p>A simple-to-use tool to evade GoGuardian, a censorship and tracking tool to prevent students from having free internet access.</p>
+
+
+
+        <a class="btn btn-primary disabled me-2" role="button" disabled>App already running</a>
+        <a class="btn btn-danger me-2"  role="button" onclick="openlink('https://GoodbyeGoGuardianNotAnymore.n3rdl0rd.repl.co/aboutinapp.html');">Learn more</a><a class="btn btn-warning me-2"  role="button" onclick="openlink('https://GoodbyeGoGuardianNotAnymore.n3rdl0rd.repl.co/app.html');" >Back</a>
+        <hr class="mt-5">
+        <h3>Tools</h3>
+        
+        <table class="table">
+
+            <tbody>
+                <tr>
+                                <td>Discord (Via Discorde, Private Instance)<br><a class="btn btn-warning me-2"  role="button" onclick="openlink('https://GoodbyeGoGuardianNotAnymore.n3rdl0rd.repl.co/tools/discord.html');">Launch </a></td>
+                <td>Firefox (Via replit, laggy but functional)<br><a class="btn btn-warning me-2"  role="button" onclick="openlink('https://GoodbyeGoGuardianNotAnymore.n3rdl0rd.repl.co/firefox.html');">Launch</a></td>
+
+                <td>Youtube Unblocked<br><a class="btn btn-warning me-2"  role="button" onclick="openlink('https://GoodbyeGoGuardianNotAnymore.n3rdl0rd.repl.co/tools/yt.html');">Launch </a></td>
+                <tr>
+                <tr>
+                    <td>FreeWeb V1 (Alpha)<br><a class="btn btn-warning me-2"  role="button" onclick="openlink('https://GoodbyeGoGuardianNotAnymore.n3rdl0rd.repl.co/freeweb.html');">Launch</a></td>
+                </tr>
+            </tbody>
+            </table>
+        
+        
+
+        
+
+        
+        </div>
+    </body>
+</html>
