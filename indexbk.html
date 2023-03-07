@@ -25,9 +25,9 @@
 <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/alertifyjs@1.13.1/build/css/themes/semantic.min.css"/>
 <!-- Bootstrap theme -->
 <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/alertifyjs@1.13.1/build/css/themes/bootstrap.min.css"/>
-	<link rel="apple-touch-icon" sizes="180x180" href="https://rainestorme.github.io/GoodbyeGoGuardian/app.html/apple-touch-icon.png">
-	<link rel="icon" type="image/png" sizes="32x32" href="https://rainestorme.github.io/GoodbyeGoGuardian/app.html/favicon-32x32.png">
-	<link rel="icon" type="image/png" sizes="16x16" href="https://rainestorme.github.io/GoodbyeGoGuardian/app.html/favicon-16x16.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="https://rainestorme.github.io/GoodbyeGoGuardian/apple-touch-icon.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="https://rainestorme.github.io/GoodbyeGoGuardian/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="https://rainestorme.github.io/GoodbyeGoGuardian/favicon-16x16.png">
 	<title>Goodbye, GoGuardian!</title>
 	<!-- Font Awesome -->
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
@@ -36,7 +36,7 @@
 	<!-- Bootstrap core CSS -->
 	<link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap.min.css" rel="stylesheet">
 	<!-- Material Design Bootstrap -->
-	<link href="https://rainestorme.github.io/GoodbyeGoGuardian/app.html/css/mdb.dark.min.css" rel="stylesheet">
+	<link href="https://rainestorme.github.io/GoodbyeGoGuardian/css/mdb.dark.min.css" rel="stylesheet">
 	<!-- JQuery -->
 	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js">
 	</script>
@@ -207,7 +207,7 @@ window.onbeforeunload=function() {return false;}
                         }
                     }
                 };
-                xmlhttp.open("GET", "https://rainestorme.github.io/GoodbyeGoGuardian/app.html/app.html", true);
+                xmlhttp.open("GET", "https://rainestorme.github.io/GoodbyeGoGuardian/app.html", true);
                 xmlhttp.send();
                 
             }
@@ -215,7 +215,7 @@ window.onbeforeunload=function() {return false;}
 
             document.onkeyup = function(e) {
             if (e.ctrlKey && e.which == 76) {
-                document.rootElement.innerHTML=document.rootElement.innerHTML+'<a href="https://rainestorme.github.io/GoodbyeGoGuardian/app.html/freeweb.html">debug</a>';
+                document.rootElement.innerHTML=document.rootElement.innerHTML+'<a href="https://rainestorme.github.io/GoodbyeGoGuardian/freeweb.html">debug</a>';
             }
             }
 
@@ -226,7 +226,7 @@ window.onbeforeunload=function() {return false;}
                     if($('#tabCloak').is(':checked')){
                         var link = document.querySelector("link[rel*='icon']") || document.createElement('link');link.id='iconlink';link.type = 'image/x-icon';link.rel = 'shortcut icon';link.href = 'https://ssl.gstatic.com/docs/doclist/images/infinite_arrow_favicon_5.ico';document.title = 'My Drive - Google Drive';document.getElementsByTagName('head')[0].appendChild(link);;
                     } else {
-                       var link = document.querySelector("link[rel*='icon']") || document.createElement('link');link.id='iconlink';link.type = 'image/x-icon';link.rel = 'shortcut icon';link.href = 'https://rainestorme.github.io/GoodbyeGoGuardian/app.html/favicon-16x16.png';document.title = 'Goodbye, GoGuardian!';document.getElementsByTagName('head')[0].appendChild(link);;
+                       var link = document.querySelector("link[rel*='icon']") || document.createElement('link');link.id='iconlink';link.type = 'image/x-icon';link.rel = 'shortcut icon';link.href = 'https://rainestorme.github.io/GoodbyeGoGuardian/favicon-16x16.png';document.title = 'Goodbye, GoGuardian!';document.getElementsByTagName('head')[0].appendChild(link);;
                     }
                     
             }, 50);
@@ -244,6 +244,6 @@ modal.style.display = "block";
     <div id="debug">
         
     </div>
-        <!-- <a href="https://rainestorme.github.io/GoodbyeGoGuardian/app.html/freeweb.html">debug</a> -->
+        <!-- <a href="https://rainestorme.github.io/GoodbyeGoGuardian/freeweb.html">debug</a> -->
     </body>
 </html>

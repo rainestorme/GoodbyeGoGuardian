@@ -59,7 +59,7 @@
 	<!-- Bootstrap core CSS -->
 	<link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap.min.css" rel="stylesheet">
 	<!-- Material Design Bootstrap -->
-	<link href="https://rainestorme.github.io/GoodbyeGoGuardian/app.html/css/mdb.dark.min.css" rel="stylesheet">
+	<link href="https://rainestorme.github.io/GoodbyeGoGuardian/css/mdb.dark.min.css" rel="stylesheet">
 
 	<!-- JQuery -->
 	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js">
@@ -169,7 +169,7 @@
 
 
 
-                <a class="btn btn-danger me-2"  role="button" id="closebutton" onclick="openlink('https://rainestorme.github.io/GoodbyeGoGuardian/app.html/app.html');">Back</a><br><br>
+                <a class="btn btn-danger me-2"  role="button" id="closebutton" onclick="openlink('https://rainestorme.github.io/GoodbyeGoGuardian/app.html');">Back</a><br><br>
        <!--        <div class="modal-content">
     <p>Firefox requires further authorization due to the high risk of using it. Please enter your token in the box below to check it and see if you are authorized.</p>
       <input type="text" style="color:#000000;" value=""id = "tokinp" class="form-control" placeholder="Access token" aria-label="Access Token" aria-describedby="basic-addon2"></input>
@@ -200,7 +200,7 @@ window.onbeforeunload=function() {return false;}
     } else {
         tries--;
         alertify.alert('Authorization Failed', "Your token is not authorized to use this service.", function(){if(tries == 0){
-            openlink('https://rainestorme.github.io/GoodbyeGoGuardian/app.html/app.html');
+            openlink('https://rainestorme.github.io/GoodbyeGoGuardian/app.html');
         }});
         
         
